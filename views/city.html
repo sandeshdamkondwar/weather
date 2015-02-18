@@ -1,4 +1,4 @@
-<div class="page-header">
+<div class="page-header header">
     <h1>Check Weather by City</h1>
 </div>
 
@@ -12,4 +12,17 @@
 
 </div>
 
-<pre>{{weather | json}}</pre>
+<div class="panel panel-default weather-panel" ng-if="weather">
+    <div class="panel-body">
+        <div class="col-sm-6">
+            <h1>{{weather.name}}</h1>
+            <h1 class="temp">{{weather.main.temp - 273.15 | number:1}}&deg;C</h1>
+        </div>
+
+        <div class="col-sm-6 conditions">
+            <h4>{{weather.weather[0].description}}</h4>
+            <h4>Humidity: {{weather.main.humidity}}%</h4>
+            <h4>Pressure: {{weather.main.pressure}} hPa</h4>
+        </div>
+    </div>
+</div>

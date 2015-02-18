@@ -9,6 +9,6 @@ angular
                 lon: $scope.lon
             };
 
-            $scope.weather = Weather.get(coordinates);
+            $scope.weather = Weather.getWeather(coordinates);
         };
     });

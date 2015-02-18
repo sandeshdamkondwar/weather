@@ -1,3 +1,29 @@
+body {
+    margin: 1em;
+}
+
+.header,
+.header h1 {
+    margin-top: 0;
+}
+
+body, input {
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.weather-panel {
+    margin-top: 15px;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+.conditions {
+    margin-top: 40px;
+}
+
 input, button {
     margin-bottom: 10px;
 }
