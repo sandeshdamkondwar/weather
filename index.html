@@ -1,17 +1,19 @@
 <!doctype html>
 <html>
     <head>
-        <title>Weather App</title>
+        <title>CouponDunia Angular Demo</title>
         <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <base href="/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body ng-app="weatherApp">
+    <body ng-app="couponsApp">
         <div class="container">
             <div class="col-sm-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <div ng-view></div>
+                        <div ng-view ></div>
                     </div>
                 </div>
             </div>
@@ -19,13 +21,16 @@
     </body>
 
     <!-- Library Scripts -->
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.js"></script>
 
     <!-- Application Scripts -->
-    <script src="scripts/app.js"></script>
-    <script src="scripts/services/weather.js"></script>
-    <script src="scripts/controllers/cityCtrl.js"></script>
-    <script src="scripts/controllers/coordinatesCtrl.js"></script>
+    <script src="/scripts/app.js"></script>
+    <script src="/scripts/services/weather.js"></script>
+    <script src="/scripts/controllers/merchantCtrl.js"></script>
+    <script src="/scripts/controllers/homeCtrl.js"></script>
+    <script src="/scripts/controllers/couponsCtrl.js"></script>
+    <script src="/scripts/controllers/cityCtrl.js"></script>
+    <script src="/scripts/controllers/coordinatesCtrl.js"></script>
 </html>

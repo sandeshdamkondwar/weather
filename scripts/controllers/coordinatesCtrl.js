@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('weatherApp')
+    .module('couponsApp')
     .controller('coordinatesCtrl', function($scope, Weather) {
         $scope.checkWeather = function() {
             var coordinates = {

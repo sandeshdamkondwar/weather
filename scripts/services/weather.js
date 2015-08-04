@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('weatherApp')
+    .module('couponsApp')
     .factory('Weather', function($resource) {
 
         var API_PATH = 'http://api.openweathermap.org/data/2.5/weather';

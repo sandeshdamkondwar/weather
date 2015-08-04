@@ -27,3 +27,11 @@ body, input {
 input, button {
     margin-bottom: 10px;
 }
+
+.coupon {
+    font-family: 'Lato';
+    font-size: 17px;
+    background: #EEE;
+    padding: 10px;
+    margin-bottom: 20px;
+}
